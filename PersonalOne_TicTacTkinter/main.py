@@ -13,7 +13,6 @@ def main():
   def chkbx(btn):
     global playerTurn
 
-    print(btn)
     btn.config(text="O" if playerTurn == 0 else "X")
 
     if playerTurn == 0:
